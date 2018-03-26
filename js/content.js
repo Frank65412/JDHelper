@@ -35,8 +35,9 @@ function myMain(evt) {
       }
     });
 
-    $('textarea[placeholder="商品是否给力？快分享你的购买心得吧~"]').val("东西挺好的值得购买，下次还会再来。");
-
+    // $('textarea[placeholder="商品是否给力？快分享你的购买心得吧~"]').val("东西挺好的值得购买，下次还会再来。");
+    // JD has changed the content in the placeholder
+    $('textarea[placeholder="分享体验心得，给万千想买的人一个参考~"]').val("东西挺好的值得购买，下次还会再来。");
 
     $('a[class="btn-submit"]')[0].click();
 
